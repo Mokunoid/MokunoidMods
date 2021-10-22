@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<XmlExtensions.SettingsMenuDef>
+    <defName>MO_MoreDetailedAnimals_SettingsMenuDef</defName>
+    <modId>MO_MoreDetailedAnimals</modId>
+    <label>More Detailed Animals</label>
+    <settings>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>★More Detailed Animals★</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+	</li>
+	<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Textures</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Textures_Label</tKey>
+	</li>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>(Enable or disable textures)</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Textures_Desc</tKey>
+	</li>
+	<li Class="XmlExtensions.Setting.TabView">
+    <tabs>
+        <li>
+            <label>Replacements</label>
+			<tKey>MDA_Settings_Tab_Replacements_Label</tKey>
+            <settings>
+               <li Class="XmlExtensions.Setting.Text">
+	    <text>Replacements</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Replacements_Label</tKey>
+	</li>
+		<li Class="XmlExtensions.Setting.Text">
+	    <text>(Enable or disable textures which override defaults)</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Replacements_Desc</tKey>
+	</li>
+<!-- ======================= Cow =============================== -->
+		<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Cow</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Cow_Label</tKey>
+	</li>
+	 <li Class="XmlExtensions.Setting.Checkbox">
+    <key>MDA_ReplacementTexture_Cow</key>
+    <label>Toggle</label>
+	<tKey>MDA_Settings_Toggle_Label</tKey>
+    <defaultValue>true</defaultValue>
+    <tooltip>Whether or not to use texture replacements for this animal. (From baby to adult)</tooltip>
+	<tKeyTip>MDA_Settings_Replacement_BtA_TT</tKeyTip>
+    </li>
+	<li Class="XmlExtensions.Setting.SplitColumn">
+    <leftCol>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Default</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Replacements_Default_Label</tKey>
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Cow/Cow_east</texPath>
+    <anchor>Middle</anchor>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Female</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Female_Label</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>3</spacing>
+	</li>
+<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Cow/Bull_east</texPath>
+    <anchor>Middle</anchor>
+</li>
+			<li Class="XmlExtensions.Setting.Text">
+	    <text>Male</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Male_Label</tKey>
+	</li>
+  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>3</spacing>
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Cow/Cow_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.75</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Calf</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Calf_Label</tKey>
+	</li>	
+    </leftCol>
+    <rightCol>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Modded</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+	<tKey>MDA_Settings_Replacements_Modded_Label</tKey>
+		</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Cow/MDA/Cow_east</texPath>
+    <anchor>Middle</anchor>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Female</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Female_Label</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>3</spacing>
+	</li>
+<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Cow/MDA/Bull_east</texPath>
+    <anchor>Middle</anchor>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Male</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Male_Label</tKey>
+	</li>
+  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>3</spacing>
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Cow/MDA/Calf_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.75</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Calf</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Calf_Label</tKey>
+	</li>
+    </rightCol>
+	</li>
+		<!-- ======================= Cow =============================== -->
+		
+		<!-- ======================= Chicken =============================== -->
+		<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Chicken</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+	    <tKey>MDA_Settings_Chicken_Label</tKey>
+	</li>
+	 <li Class="XmlExtensions.Setting.Checkbox">
+    <key>MDA_ReplacementTexture_Chicken</key>
+    <label>Toggle</label>
+	<tKey>MDA_Settings_Toggle_Label</tKey>
+    <defaultValue>true</defaultValue>
+    <tooltip>Whether or not to use texture replacements for this animal. (From baby to adult)</tooltip>
+	<tKeyTip>MDA_Settings_Replacement_BtA_TT</tKeyTip>
+    </li>
+	<li Class="XmlExtensions.Setting.SplitColumn">
+    <leftCol>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Default</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Replacements_Default_Label</tKey>
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Chicken/Chicken_east</texPath>
+    <anchor>Middle</anchor>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Female</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+	   <tKey>MDA_Settings_Image_Female_Label</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>5</spacing>
+	</li>
+<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Chicken/Chicken_east</texPath>
+    <anchor>Middle</anchor>
+</li>
+			<li Class="XmlExtensions.Setting.Text">
+	    <text>Male</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+	    <tKey>MDA_Settings_Image_Male_Label</tKey>
+	</li>
+  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>5</spacing>
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Chicken/Chicken_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.55</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Chick</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Chick_Label</tKey>
+	</li>	
+    </leftCol>
+    <rightCol>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Modded</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Replacements_Modded_Label</tKey>
+		</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Chicken/MDA/Chicken_east</texPath>
+    <anchor>Middle</anchor>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Female</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Female_Label</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>5</spacing>
+	</li>
+<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Chicken/MDA/Chicken_M_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.80</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Male</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Male_Label</tKey>
+	</li>
+  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>5</spacing>
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Chicken/MDA/Chick_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.55</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Chick</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+	    <tKey>MDA_Settings_Image_Chick_Label</tKey>
+	</li>
+    </rightCol>
+	</li>
+	<!-- ======================= Chicken =============================== -->
+	
+	<!-- ======================= Caribou =============================== -->
+<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Caribou</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Caribou_Label</tKey>
+	</li>
+	 <li Class="XmlExtensions.Setting.Checkbox">
+    <key>MDA_ReplacementTexture_Caribou</key>
+    <label>Toggle</label>
+	<tKey>MDA_Settings_Toggle_Label</tKey>
+    <defaultValue>true</defaultValue>
+    <tooltip>Whether or not to use texture replacements for this animal. (Baby and juvenile only)</tooltip>
+	<tKeyTip>MDA_Settings_Replacement_BtJ_TT</tKeyTip>
+    </li>
+	<li Class="XmlExtensions.Setting.SplitColumn">
+    <leftCol>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Default</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Replacements_Default_Label</tKey>
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Caribou/Caribou_east</texPath>
+    <anchor>Middle</anchor>
+		<scale>0.55</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Calf</text>
+	    <font>Tiny</font>
+		<tKey>MDA_Settings_Image_Calf_Label</tKey>
+	    <anchor>Middle</anchor>
+	</li>
+	 <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>5</spacing>
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Caribou/Caribou_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.75</scale>
+</li>
+			<li Class="XmlExtensions.Setting.Text">
+	    <text>Juvenile</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+	    <tKey>MDA_Settings_Image_Juvenile_Label</tKey>
+	</li>
+	</leftCol>
+	 <rightCol>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Modded</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Replacements_Modded_Label</tKey>
+		</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Caribou/MDA/Calf_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.55</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Calf</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Calf_Label</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>5</spacing>
+	</li>
+<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Caribou/MDA/Juvenile_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.75</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Juvenile</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Juvenile_Label</tKey>
+	</li>
+  <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>5</spacing>
+	</li>
+	  </rightCol>
+	</li>
+		<!-- ======================= Caribou =============================== -->
+			
+			
+		<!-- ======================= Bison =============================== -->
+		<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Bison</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Bison_Label</tKey>
+	</li>
+	 <li Class="XmlExtensions.Setting.Checkbox">
+    <key>MDA_ReplacementTexture_Bison</key>
+    <label>Toggle</label>
+    <defaultValue>true</defaultValue>
+	<tKey>MDA_Settings_Toggle_Label</tKey>
+    <tooltip>Whether or not to use texture replacements for this animal. (Baby only)</tooltip>
+	<tKeyTip>MDA_Settings_Replacement_B_TT</tKeyTip>
+    </li>
+	<li Class="XmlExtensions.Setting.SplitColumn">
+    <leftCol>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Default</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Replacements_Default_Label</tKey>
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Bison/Bison_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.15</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Calf</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Image_Calf_Label</tKey>
+	</li>
+	</leftCol>
+	 <rightCol>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Modded</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Replacements_Modded_Label</tKey>
+		</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Bison/MDA/Calf_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.15</scale>
+</li>
+<li Class="XmlExtensions.Setting.Text">
+	    <text>Calf</text>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+	    <tKey>MDA_Settings_Image_Calf_Label</tKey>
+	</li>
+	  </rightCol>
+	</li>
+		<!-- ======================= Bison =============================== -->
+		
+		<!--add additional replacements here-->
+		
+         </settings>
+        </li> 
+	     	<!-- ======================= end of replacements =============================== -->
+			
+			
+	    <!-- ======================= Variations =============================== -->
+        <li>
+            <label>Variants</label>
+			<tKey>MDA_Settings_Tab_Variants_Label</tKey>
+            <settings>
+                  <li Class="XmlExtensions.Setting.Text">
+	    <text>Additional Variants</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Variants_Label</tKey>
+	</li>
+		<li Class="XmlExtensions.Setting.Text">
+	    <text>(Enable or disable additional texture variants which don't replace the originals)</text>
+		<tKey>MDA_Settings_Variants_Desc</tKey>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+	</li>
+		<!-- ======================= Horse =============================== -->
+		<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Horse</text>
+	    <font>Medium</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Horse_Label</tKey>
+	</li>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Star</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Horse_Var_Star</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Checkbox">
+    <key>MDA_Additional_Horse_Star</key>
+    <label>Toggle</label>
+	<tKey>MDA_Settings_Toggle_Label</tKey>
+    <defaultValue>true</defaultValue>
+    <tooltip>Whether or not this variant should appear in game. (Applies to all original colours)</tooltip>
+	<tKeyTip>MDA_Settings_Var_Marking_TT</tKeyTip>
+    </li>	
+	<!--columns-->
+	<li Class="XmlExtensions.Setting.SplitColumn">
+    <leftCol>
+  		<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/Star/Horse4_south</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>		
+    </leftCol>
+	<!--south/east-->
+    <rightCol>
+        <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>4</spacing> <!--In order to align it better-->
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/Star/Horse4_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>
+    </rightCol>
+</li>
+<!--columns end-->
+<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Star-Stripe</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Horse_Var_StarStripe</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Checkbox">
+    <key>MDA_Additional_Horse_StarStripe</key>
+    <label>Toggle</label>
+	<tKey>MDA_Settings_Toggle_Label</tKey>
+    <defaultValue>true</defaultValue>
+    <tooltip>Whether or not this variant should appear in game. (Applies to all original colours)</tooltip>
+	<tKeyTip>MDA_Settings_Var_Marking_TT</tKeyTip>
+    </li>	
+	<!--columns-->
+	<li Class="XmlExtensions.Setting.SplitColumn">
+    <leftCol>
+  		<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/StarStripe/Horse5_south</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>		
+    </leftCol>
+	<!--south/east-->
+    <rightCol>
+        <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>4</spacing> <!--In order to align it better-->
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/StarStripe/Horse5_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>
+    </rightCol>
+</li>
+<!--columns end-->
+<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Stripe</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Horse_Var_Stripe</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Checkbox">
+    <key>MDA_Additional_Horse_Stripe</key>
+    <label>Toggle</label>
+	<tKey>MDA_Settings_Toggle_Label</tKey>
+    <defaultValue>true</defaultValue>
+    <tooltip>Whether or not this variant should appear in game. (Applies to all original colours)</tooltip>
+	<tKeyTip>MDA_Settings_Var_Marking_TT</tKeyTip>
+    </li>	
+	<!--columns-->
+	<li Class="XmlExtensions.Setting.SplitColumn">
+    <leftCol>
+  		<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/Stripe/Horse3_south</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>		
+    </leftCol>
+	<!--south/east-->
+    <rightCol>
+        <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>4</spacing> <!--In order to align it better-->
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/Stripe/Horse3_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>
+    </rightCol>
+</li>
+<!--columns end-->
+<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Blaze</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Horse_Var_Blaze</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Checkbox">
+    <key>MDA_Additional_Horse_Blaze</key>
+    <label>Toggle</label>
+	<tKey>MDA_Settings_Toggle_Label</tKey>
+    <defaultValue>true</defaultValue>
+    <tooltip>Whether or not this variant should appear in game. (Applies to all original colours)</tooltip>
+	<tKeyTip>MDA_Settings_Var_Marking_TT</tKeyTip>
+    </li>	
+	<!--columns-->
+	<li Class="XmlExtensions.Setting.SplitColumn">
+    <leftCol>
+  		<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/Blaze/Horse1_south</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>		
+    </leftCol>
+	<!--south/east-->
+    <rightCol>
+        <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>4</spacing> <!--In order to align it better-->
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/Blaze/Horse1_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>
+    </rightCol>
+</li>
+<!--columns end-->
+<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>Paint</text>
+	    <font>Small</font>
+	    <anchor>Middle</anchor>
+		<tKey>MDA_Settings_Horse_Var_Paint</tKey>
+	</li>
+	  <li Class="XmlExtensions.Setting.Checkbox">
+    <key>MDA_Additional_Horse_Paint</key>
+    <label>Toggle</label>
+	<tKey>MDA_Settings_Toggle_Label</tKey>
+    <defaultValue>true</defaultValue>
+    <tooltip>Whether or not this variant should appear in game. (Applies to all original colours)</tooltip>
+	<tKeyTip>MDA_Settings_Var_Marking_TT</tKeyTip>
+    </li>	
+	<!--columns-->
+	<li Class="XmlExtensions.Setting.SplitColumn">
+    <leftCol>
+  		<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/Paint/Horse6_south</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>		
+    </leftCol>
+	<!--south/east-->
+    <rightCol>
+        <li Class="XmlExtensions.Setting.Gap">
+	    <spacing>4</spacing> <!--In order to align it better-->
+	</li>
+	<li Class="XmlExtensions.Setting.DrawImage">
+    <texPath>Things/Pawn/Animal/Horse/MDA/Paint/Horse6_east</texPath>
+    <anchor>Middle</anchor>
+	<scale>0.5</scale>
+</li>
+    </rightCol>
+</li>
+<!--columns end-->
+<!-- ======================= Horse =============================== -->
+
+<!--add additional animals for variations here-->
+
+            </settings>
+        </li>
+<!-- ======================= End of Variations =============================== -->
+    </tabs>
+</li>
+	<li Class="XmlExtensions.Setting.GapLine"/>
+	<li Class="XmlExtensions.Setting.Text">
+	    <text>(NOTE: Game restart required for settings to take effect.)</text>
+		<tKey>MDA_Settings_RestartRequired</tKey>
+	    <font>Tiny</font>
+	    <anchor>Middle</anchor>
+	</li>
+		<li Class="XmlExtensions.Setting.GapLine"/>
+		<li Class="XmlExtensions.Setting.ResetSettings"/>
+    </settings>
+</XmlExtensions.SettingsMenuDef>
+</Defs>
