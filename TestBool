@@ -1,0 +1,33 @@
+using System;
+using RimWorld;
+using Verse;
+
+namespace MO_AnimalProductOptions
+{
+    [StaticConstructorOnStartup]
+    public static class TEST
+    {
+        static TEST()
+        {
+            Log.Message("Horse is milkable:" + IsMilkableChecker.MilkCheck_Horse.ToString());
+        }
+
+        public static class IsMilkableChecker
+        {
+            public static bool MilkCheck_Horse
+            {
+                get
+                {
+                    if (DefStorage.horse != null && DefStorage.horse.HasComp(typeof(CompMilkable)))
+                    {
+                        return true;
+                    }
+                    else 
+                    {
+                        return false;
+                   }
+                }
+            }
+        }
+    }
+}
