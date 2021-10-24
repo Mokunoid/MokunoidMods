@@ -31,3 +31,35 @@ namespace MO_AnimalProductOptions
         }
     }
 }
+===========================================================alternate==============================================================
+using System;
+using RimWorld;
+using Verse;
+
+namespace MO_AnimalProductOptions
+{
+    [StaticConstructorOnStartup]
+    public static class TEST
+    {
+        static TEST()
+        {
+            Log.Message("Horse is milkable:" + IsMilkableChecker.Milkable_Horse.ToString());
+        }
+
+        public static class IsMilkableChecker
+        {
+            public static bool Milkable_Horse = Milkable_Horse1();
+            
+            public static bool Milkable_Horse1()
+            {
+                if (DefStorage.horse.HasComp(typeof(CompMilkable)))
+                {
+                    return true;
+                }
+                else
+                    return false;
+            }
+        }
+        }
+    }
+
